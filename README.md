@@ -1,0 +1,1 @@
+Documentation of my learning new and prev:)
