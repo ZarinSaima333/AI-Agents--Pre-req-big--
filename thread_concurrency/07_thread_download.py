@@ -27,3 +27,5 @@ for t in threads:
 end = time.time()
 
 print(f"All downloads done in {end - start:.2f} seconds")
+
+#better
