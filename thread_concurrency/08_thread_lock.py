@@ -1,7 +1,7 @@
 import threading
 
 counter = 0
-lock = threading.Lock()
+lock = threading.Lock() #solve the race condition
 
 def increament():
     global counter
