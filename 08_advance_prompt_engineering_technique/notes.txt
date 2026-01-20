@@ -1,0 +1,5 @@
+pip install google-genai
+
+ https://ai.google.dev/gemini-api/docs/openai (using gemini by openai)
+
+ we need the openai to be installed as well-> pip install openai
