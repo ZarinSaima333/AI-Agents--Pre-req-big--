@@ -3,3 +3,15 @@ pip install google-genai
  https://ai.google.dev/gemini-api/docs/openai (using gemini by openai)
 
  we need the openai to be installed as well-> pip install openai
+
+*pip install python-dotenv
+then add this to .py file
+from dotenv import load_dotenv
+import os
+
+load_dotenv()
+
+API_KEY = os.getenv("GOOGLE_API_KEY")
+load_dotenv() #eki directory te na rakhleo eka khuje ber kore env
+ -----------------------------------------------------------------------
+ zero_shot_promting: giving system a direct direction.
