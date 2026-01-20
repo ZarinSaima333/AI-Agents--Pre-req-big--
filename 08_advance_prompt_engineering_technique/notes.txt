@@ -15,3 +15,4 @@ API_KEY = os.getenv("GOOGLE_API_KEY")
 load_dotenv() #eki directory te na rakhleo eka khuje ber kore env
  -----------------------------------------------------------------------
  zero_shot_promting: giving system a direct direction.
+ few_shot zero_shot_promting: the model is provided with a few examples before asking it to generate a response.
