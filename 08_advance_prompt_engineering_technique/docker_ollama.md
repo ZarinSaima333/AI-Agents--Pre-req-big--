@@ -23,3 +23,8 @@ b766be9ab54a60f516af47b22050ead39459166b8aa0c7aa1543b67fd6d3b6e6
 
 3.1. ollama-> model-> gemma
 3.2. gemma:2b admin pannel e (Pull a model from Ollama.com) (download)
+
+
+now fastapi + ollama:
+1)pip install uvicorn fastapi ollama
+2)keep the ollam docker container running takes long time
